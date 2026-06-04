@@ -99,7 +99,7 @@ export function HeroSection() {
         >
           <button
             onClick={() => {
-              const el = document.querySelector('#services')
+              const el = document.querySelector('#about')
               el?.scrollIntoView?.({ behavior: 'smooth' })
             }}
             className="bg-gradient-to-r from-[hsl(190,60%,45%)] to-[hsl(190,80%,55%)] text-white px-8 py-4 rounded-lg font-medium text-base hover:shadow-lg hover:shadow-[hsl(190,60%,45%)]/30 transition-all duration-300 hover:-translate-y-0.5"
