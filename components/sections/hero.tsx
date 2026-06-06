@@ -176,12 +176,19 @@ export function HeroSection() {
           className="font-extrabold text-4xl md:text-5xl leading-tight mt-6 text-white"
           style={{ fontFamily: "'Orbitron', sans-serif" }}
         >
-          Smart Tech &amp;{' '}
+          One Mothership.{' '}
           <span className="bg-gradient-to-r from-[#22D3EE] via-[#8B7BFF] to-[#F472B6] bg-clip-text text-transparent">
-            Wealth Partnership
-          </span>
+            A Whole Fleet
+          </span>{' '}
+          of Capability.
         </h1>
-        <p className="text-[#9CA3C7] max-w-2xl mx-auto mt-4 text-base">
+        <p
+          className="text-[#B9B2FF] text-lg font-semibold tracking-wide mt-3"
+          style={{ fontFamily: "'Orbitron', sans-serif" }}
+        >
+          Smart Tech &amp; Wealth Partnership
+        </p>
+        <p className="text-[#9CA3C7] max-w-2xl mx-auto mt-3 text-base">
           Eight consulting services and two products, orbiting one command center.
           Click any vessel to explore what it brings to your mission.
         </p>
